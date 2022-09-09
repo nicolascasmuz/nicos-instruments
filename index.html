@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nico's Instruments</title>
+    <link rel="icon" type="image/png" href="./favicon-nicos.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./logo-shop@2000x.png"
+        alt="logo-nicos-header"
+        class="header-logo-m"
+      />
+      <div class="header__logo-form">
+        <img
+          src="./logo-shop@2000x.png"
+          alt="logo-nicos-header"
+          class="header-logo-d"
+        />
+        <form class="header-input-button">
+          <input
+            class="header-input"
+            type="text"
+            name="buscar"
+            placeholder="Teclado Yamaha..."
+          />
+          <button class="header-button">Buscar</button>
+        </form>
+      </div>
+      <img src="./loupe.png" alt="" class="header__lupa" />
+      <nav class="header-nav">
+        <a class="header-option" href="">Quienes somos</a>
+        <a class="header-option" href="">Nuestros productos</a>
+        <a class="header-option" href="">Contacto</a>
+      </nav>
+      <img src="./menu.svg" alt="" class="header__menu" />
+    </header>
+    <section class="general-section">
+      <h1 class="general-title"></h1>
+      <div class="general-section__wrapper">
+        <div class="card-wrapper"></div>
+        <template id="template-results">
+          <div class="card">
+            <h3 class="card-title"></h3>
+            <img src="" alt="card-img" class="card-img" />
+            <div class="card-price-link">
+              <h4 class="card-price"></h4>
+              <a href="" class="card-see-more">Ver más...</a>
+            </div>
+          </div>
+        </template>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-logo-copyright">
+        <img
+          src="./logo-shop@2000x.png"
+          alt="logo-del-footer"
+          class="footer-logo"
+        />
+        <h6 class="footer-copyright">© 2022 Nico's Instruments</h6>
+      </div>
+      <div class="footer-socialmedia">
+        <a href="" class="footer__links link-facebook"
+          ><img
+            src="./logo-facebook_1@4x.png"
+            alt="logo-facebook"
+            class="logo-facebook"
+        /></a>
+        <a href="" class="footer__links link-instagram">
+          <img
+            src="./logo-instagram_1@4x.png"
+            alt="logo-instagram"
+            class="logo-instagram"
+        /></a>
+        <a href="" class="footer__links link-whatsapp">
+          <img
+            src="./logo-whatsapp_1@4x.png"
+            alt="logo-whatsapp"
+            class="logo-whatsapp"
+        /></a>
+        <a href="" class="footer__links link-youtube">
+          <img
+            src="./logo-youtube_1@4x.png"
+            alt="logo-youtube"
+            class="logo-youtube"
+        /></a>
+      </div>
+      <p class="footer-datos">
+        (011) 4344-1298 nicosinstruments@gmail.com Laprida 1234 Lomas de Zamora,
+        Buenos Aires
+      </p>
+    </footer>
+  </body>
+</html>
