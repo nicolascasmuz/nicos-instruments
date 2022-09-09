@@ -48,8 +48,8 @@ function getProducts(product = {}) {
   templateEl.content.querySelector(".card-price").textContent =
     "$" + product.price;
 
-  if (cardWrapperEl.firstChild) {
-    cardWrapperEl.children.remove();
+  while (cardWrapperEl.firstChild) {
+    cardWrapperEl.lastChild.remove();
   }
 
   const clone = document.importNode(templateEl.content, true);
