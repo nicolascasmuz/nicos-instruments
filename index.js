@@ -48,6 +48,7 @@ function getProducts(product = {}) {
   templateEl.content.querySelector(".card-price").textContent =
     "$" + product.price;
 
+  // AÑADE LOS NUEVOS ELEMENTOS DENTRO DEL CONTENEDOR
   const clone = document.importNode(templateEl.content, true);
   cardWrapperEl.appendChild(clone);
 
