@@ -72,7 +72,9 @@ export function CategoryPage() {
   const [order, setOrder] = useState("menor precio");
 
   async function pullResults(cat, order) {
-    fetch(process.env.CONTENTFUL_ACCESS_TOKEN)
+    fetch(
+      "https://preview.contentful.com/spaces/boc2rp8m0dgi/environments/master/entries?access_token=Y1_N0gShtcshwQbkaOPc2u0lA-7zD8351Q0NWQCRCsU&&content_type=nicosStock"
+    )
       .then((res) => {
         return res.json();
       })
