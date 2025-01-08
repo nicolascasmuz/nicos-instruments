@@ -15,6 +15,7 @@ export function Brands() {
     gap: 20px;
 
     .brand-img {
+      width: 100px;
       height: 100px;
     }
   `;

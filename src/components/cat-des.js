@@ -16,17 +16,20 @@ export function FeaturedCategories() {
 
     .cat-container {
       position: relative;
+      width: auto;
       height: 176px;
       text-align: center;
     }
 
     @media (min-width: 1000px) {
       .cat-container {
+        width: auto;
         height: 238px;
       }
     }
 
     .cat-container .cat-img {
+      width: auto;
       height: 100%;
       transition: all 0.25s;
     }
