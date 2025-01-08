@@ -1,9 +1,9 @@
-import logoRoland from "../resources/logo-roland.png";
-import logoFender from "../resources/logo-fender.png";
-import logoZildjian from "../resources/logo-zildjian.png";
-import logoBoss from "../resources/logo-boss.png";
-import logoYamaha from "../resources/logo-yamaha.png";
-import logoIbanez from "../resources/logo-ibanez.png";
+import logoRoland from "../resources/logo-roland.webp";
+import logoFender from "../resources/logo-fender.webp";
+import logoZildjian from "../resources/logo-zildjian.webp";
+import logoBoss from "../resources/logo-boss.webp";
+import logoYamaha from "../resources/logo-yamaha.webp";
+import logoIbanez from "../resources/logo-ibanez.webp";
 import styled from "styled-components";
 
 export function Brands() {

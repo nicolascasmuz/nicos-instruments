@@ -1,7 +1,7 @@
-import classicGuitars from "../resources/classic-guitars-cat.png";
-import microphones from "../resources/microphones-cat.png";
-import keyboards from "../resources/keyboards-cat.png";
-import percussion from "../resources/percussion-cat.png";
+import classicGuitars from "../resources/classic-guitars-cat.webp";
+import microphones from "../resources/microphones-cat.webp";
+import keyboards from "../resources/keyboards-cat.webp";
+import percussion from "../resources/percussion-cat.webp";
 import styled from "styled-components";
 
 export function CategoryComp(props) {

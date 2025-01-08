@@ -3,10 +3,10 @@ import { CarouselComp } from "../components/carousel-comp";
 import { FeaturedCategories } from "../components/cat-des";
 import { Brands } from "../components/brands-comp";
 import { CategoryComp } from "../components/category-comp";
-import classicGuitars from "../resources/classic-guitars-cat.png";
-import microphones from "../resources/microphones-cat.png";
-import amps from "../resources/amps-cat.png";
-import keyboards from "../resources/keyboards-cat.png";
+import classicGuitars from "../resources/classic-guitars-cat.webp";
+import microphones from "../resources/microphones-cat.webp";
+import amps from "../resources/amps-cat.webp";
+import keyboards from "../resources/keyboards-cat.webp";
 import styled from "styled-components";
 
 export function MainPage() {
